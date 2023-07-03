@@ -1,0 +1,50 @@
+PROJECT EXLAINATION
+First thing - Clearly explain them what your project is about and what it does .
+Second-tell him/her the technologies used in your project .
+Then your role into project .
+The main aim of the project is
+* To save the time and reduce the paper usage.
+* To increase the production with proper plane.
+* To increase the sales by online marketing.
+* To reduce wastage of the raw material by proper
+estimation for purchase of the raw material.
+I worked in devoloping purchase module .
+whenever i want to execute more than one command i used
+some stored procedures to reduce the network traffic,
+reusability of the code
+
+
+National Bank of Fujairah (UAE)
+          
+          NBF is the instant account creating application in United Arab Emirates.
+
+          it's having the three module  one is Self Account creation and RM account Creation And RM Application Verication  
+             
+This project helps to open or create the new savings and current account from anywhere instantly just by using this application and applicant can get the Welcome Kit and Debit card or credit card on theri address .
+
+once the applicant submitted the application it will comes under the RM tab and RM will go the applicant location and verify therir details once the details is verify RM can able to the create account for that parcular application.
+
+NBF SME Connect
+
+SMEConnect application is developed for theh SMEs (NBF customers / non - customers) to interact with
+NBF and with each other.
+
+i having the three differnt users and modules like service and Events and NEWS 
+
+
+
+SOCGEN 
+Societe Generale is a front and back office project bank located in New York,US. 
+it's having the three module  one is RM Dashboard then Account Pricing and Price remediation 
+
+RM Dashboard - provide the consolidate view on the particular account in differnent views 
+
+Account Pricing - provide facility for front-office to upload account
+pricing from excel spreadsheet and provide facility to maintain pricing templates 
+
+Price remediation -   provide facility for front and back-office to view and
+reconcile FLEXCUBE account pricing with uploaded and here manager can approve and reject that particular account bases on the interst pricie 
+
+Main purpose of this project is to 
+    • Eliminate manual inputs
+    • Improve accountability with end-to-end traceability on all changes related to product pricing
