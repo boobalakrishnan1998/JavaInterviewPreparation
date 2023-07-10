@@ -13,3 +13,4 @@ how will you mock the static method in Junit
 what is memory leak
 how will you test the performance of application
 what is the concorentHashmap
+what is outOFMemoryError
