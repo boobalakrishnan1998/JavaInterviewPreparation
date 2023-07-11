@@ -10,3 +10,7 @@ what is the use of index what if index have same value in multiple column
 what is springBoot and advantages
 what are the Junit annotation that are used in your project
 how will you mock the static method in Junit
+what is memory leak
+how will you test the performance of application
+what is the concorentHashmap
+what is outOFMemoryError
