@@ -1,21 +1,21 @@
 Hexaware Telephonic Round interview questions 
 -------------------------------------------------------------------------
-1.What is difference between Object oriented and object based langugae.
+1.What is difference between Object oriented and object based language.
 2.Difference between List and set.
 3.What is serialization?.
 4.Difference between serial garbage collector and parallel garbage collector.
 5.How we can write our own immutable class.
-6.What all are synchroized objects in collections.
+6.What all are synchronized objects in collections.
 7.Other than string what all are immutable classes.
-8.What is autoboxing and autounboxing.
-9.What is class loader and how .class will be loaded.
-10.What are the various memory areas in JVM.
-11.Difference between composition and aggregarion.
+8.What is autoboxing and autoboxing.
+9.What is class loader and how .class will be loaded.-------
+10.What are the various memory areas in JVM.---
+11.Difference between composition and aggregation.-----
 12.Java 1.7 features.
 13.What is package for these primitive data types and collections.
 14.What is marker interface in java and examples.
 15.Methods in object class.
-16.What are the design patterns used in ur project.
+16.What are the design patterns used in ur project.-------
 
 
 Sify Technologies Telephonic Round Interview questions
