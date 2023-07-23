@@ -2,26 +2,55 @@ PROJECT EXLAINATION
 First thing - Clearly explain them what your project is about and what it does .
 Second-tell him/her the technologies used in your project .
 
-National Bank of Fujairah (UAE)
-          
-          NBF is the instant account creating application in United Arab Emirates.
 
-          it's having the three module  one is Self Account creation and RM account Creation And RM Application Verication  
-             
-This project helps to open or create the new savings and current account from anywhere instantly just by using this application and applicant can get the Welcome Kit and Debit card or credit card on theri address .
+NBFInstant:
+The National Bank of Fujairah (NBF) in the United Arab Emirates has developed an instant account creation                application. This application consists of three modules:
+This project by NBF aims to provide a convenient and efficient way for people in the UAE to open new bank accounts   without the need to visit a physical branch. The combination of self-service account creation and personalized     assistance from Relationship Managers makes the process more accessible to a broader range of customers.
 
-once the applicant submitted the application it will comes under the RM tab and RM will go the applicant location and verify therir details once the details is verify RM can able to the create account for that parcular application.
+Self Account Creation: Through this module, individuals can open or create new savings and current accounts             instantly. The application simplifies the account opening process, allowing applicants to do it themselves       without visiting a physical branch.
 
-NBF SME Connect
+RM Account Creation: RM stands for Relationship Manager. In this module, the Relationship Manager is involved in the account creation process. They may assist customers who prefer personalized assistance in opening their accounts. This could be particularly helpful for more complex or specialized account requirements.
 
-SMEConnect application is developed for theh SMEs (NBF customers / non - customers) to interact with
-NBF and with each other.
+RM Application Verification: Once an applicant submits their account opening application, it is sent to the RM tab. The Relationship Manager then proceeds to verify the applicant's details. This verification process may involve physically visiting the applicant's location to confirm their identity and other necessary information.
 
-i having the three differnt users and modules like service and Events and NEWS 
+NBF Connect
+
+The NBF SME Connect application creates a platform where SMEs can access valuable resources, interact with the bank, and connect with other businesses in the community. It promotes networking and collaboration, which can lead to potential partnerships and growth opportunities for the SMEs involved. Additionally, the application serves as a bridge between SMEs and NBF, enhancing customer engagement and support for both existing customers and potential new clients
+
+a. Services: This module provides a range of services specifically tailored to the needs of SMEs. These services may include financial products such as business loans, credit facilities, trade finance options, and account management. SMEs can apply for these services directly through the application, making the process more convenient and accessible.
+
+b. Events: The Events module offers information about upcoming events, workshops, seminars, and conferences that may be beneficial to SMEs. These events may cover various topics such as business development, industry insights, networking opportunities, and other relevant subjects. SMEs can register for events they are interested in attending through the application.
+
+c. News: The News module provides SMEs with the latest updates, industry trends, financial news, and relevant insights. This section may also include articles, expert opinions, and analysis to help SMEs stay informed about market changes and make informed business decisions.
 
 
-Intelsat :- Intelsat helps to provides the commercial inflight broadband and entertainment services to enable airlines
-to offer the best inflight Wi-Fi experiences to their passengers. Collaborated with cross-functional teams to design, develop, and test software solutions that
-supported the project objectives.
+Intelsat :- Intelsat in providing commercial in-flight broadband and entertainment services to airlines. Their primary goal is to enable airlines to offer the best in-flight Wi-Fi experiences to their passengers.
+Intelsat operates a vast fleet of satellites that provide communication services, including broadband connectivity, video broadcasting, maritime and aeronautical communications, and government services.
 
-FundsIndia :- FundsIndia is online investment platform. They provide the investment platform to Ivestor to Invest in different products. They offering MF, Stocks ,FD, NPS, Insurance 
+FundsIndia :- FundsIndia is online investment platform. They provide the investment platform to Investor to Invest in different products. They offering MF, Stocks ,FD, NPS, Insurance.
+
+Here I recently worked Nomination declaration future.
+As per SEBI Regulation all the MF investors either declare the nomination or opt out nominee declaration.
+Here the Investor declare the up to 3 Nominees with nominee Name, DOB, percentage if the Nominee is Minor should provide the guardian details.
+Once the Investor declared the nominee details the Nomination status will be In progress .
+As a distributor we update the nominee details to RTA's.
+we have Two RTAs One is KFinTech and another one is CAMS.
+I have implemented the RestApi to post the nominee details to KFinTech and CAMS API. once we successfully updated will activate the nominee for the Investor.
+
+I worked on implementing a Nomination Declaration feature for Mutual Fund (MF) investors in compliance with SEBI (Securities and Exchange Board of India) regulations.
+Investor Declaration
+As per SEBI Regulation all the MF investors are required to either declare a nomination or explicitly opt-out of nominee declaration
+ The feature allows investors to declare up to 3 nominees and specify their details, such as Nominee's name, date of birth, and  percentage. If any of the nominees are minors, their guardian details must be provided.
+
+Nomination Status: After the investor submits the nominee details, the nomination status is set to "In progress." This indicates that the nomination declaration is currently being processed.
+
+Updating Nominee Details: As a distributor, our role is to update the nominee details to the relevant Registrar and Transfer Agents (RTAs). In this case, there are two RTAs involved: KFinTech and CAMS.
+I have implemented RESTful APIs to post the nominee details to both KFinTech and CAMS APIs.
+
+Nominee Activation: Once the nominee details are successfully updated in the respective RTAs' systems, the nominated individuals are activated as the official nominees for the investor.
+
+
+Reverse penny drop feature
+   I am working on Reverse penny drop feature and done POC and stated the Implementation
+   If investor wish to add the new bank or  change the existing bank In order to verify the Bank Account we credit the one Rupee to the investor Account and verify the Account name and number with investor name. In this we get very limited details only soo we are moving to Reverse penny drop
+Here instead of we credit one rupee to investor account we ask investor to credit the one rupee to our account using QR code and get the more bank details and verify the account details

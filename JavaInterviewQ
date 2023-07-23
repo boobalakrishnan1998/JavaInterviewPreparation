@@ -28,20 +28,18 @@ Sify Technologies Telephonic Round Interview questions
 6.Spring MVC 
 7.What is synchronized and how u are implementing the same in ur project
 8.What is map and what is concurrent hash map
-9.If 3 users are sending the request how many instances of servltes will be created?
-10.What methods you will use to return a value in JSP.
 11.2nd highest salary 
 12.How to find duplicate values in a string by using collection.
 13.Difference between comparable and comparator.
 14.What is the error you will get when you are trying to create instance of interface
-A:Cannot instantiate the type List
+         Cannot instantiate the type List
 
 ---------------------------------------------------
 Cognizant:
 -------------
 1.Difference between Soap and Rest.
 2.Difference between setter injection and constructor injection.
-3.What is design pattern why we need design patterns?.
+3.What is design pattern why we need design patterns?.----
 4.Caching mechanism in hibernate?.
 5.When does the cache expires in hibernate?.
 6.ORM vs JDBC
@@ -59,41 +57,36 @@ Cisco:
 3.Wait vs Sleep
 4.Immutable class
 5.Prototype and request.
-6.Lazy Loading in hibernate.
+6.Lazy Loading in hibernate.---
 7.Cascade attribute in hibernate and what are the values for cascade.
 
 ----------------------------------------------------
 NIIT
 -----
 
-1.About project
+1.About project----
 2.Web services
-3.JDK vs JRE.
+3.JDK vs JRE.---
 4.Jar vs WAR
 5.Checked vs unchecked
-6.Synchronizaction in thread.
+6.Synchronization in thread.
 7.Runnable or thread.
 8.Auto Boxing and unboxing.
 9.java 5 features
 Java 6 features
 Java 7 features.
 10.Design patterns
-Ex:Single ton,Front controller,MVC.
-11.How to create single ton.
+Ex:Single ton,Front controller,MVC.---
+11.How to create single ton.----
 12.What is WSDL file?.
 13.Soap Vs Rest?
-14.Servlet context vs servlet config.
-15.9 implict objects.
-16.Actions in struts.
-
 --------------------------------------------
 Mphasis:
 ---------
-1.Various states of hibernate.
+1.Various states of hibernate.----
 ------------------------------------------------------------------
 Infosys:
 ---------
-1.How do you handle Runtime Exception in JSP.
 2.What is IOC.
 3.Setter injection vs constructor injection.
 4.What is WSDL?.
