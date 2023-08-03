@@ -1,21 +1,27 @@
-recently faced production issue
-how will you handle the data loss in database
+how will you handle the data loss in database--
 What will you if you get outOfMemoryError
-What is the use of custom annotation and create your own custom annotation
+What is the use of custom annotation and create your own custom annotation ---
 Find the longest substring without repeating the character
 AWS Lambda limitation
 AWS S3 type
 How will you find the request failure in microservice architecture
-what is the use of index what if index have same value in multiple column
+what is the use of index what if index have same value in multiple column ---
 what is springBoot and advantages
 what are the Junit annotation that are used in your project
 how will you mock the static method in Junit
 what is memory leak
 how will you test the performance of application
-what is the concorentHashmap
-what is outOFMemoryError
+what is the concurrent Hashmap
 what are the design patterns your worked
 when to use singleton design pattern
 SOLID principles
-Solid principles
 what is fork join
+How to convert monolithic to micro services
+RestTemplate vs webclient vs Feign Client
+How to configure two database
+how to load diff property files
+How to connect database using  springData jpa
+JPARepository vs CRUD repository
+How to consume and produce secure API
+map vs flatMap
+what is peek
