@@ -25,3 +25,12 @@ JPARepository vs CRUD repository
 How to consume and produce secure API
 map vs flatMap
 what is peek
+relationship association
+cache using hibernate
+Repository annotations
+Rest api to implement employee services
+pom.xml springboot starter parent dependency
+How will you improve the db fetch time
+how will you handle the exception in retAPI
+
+
