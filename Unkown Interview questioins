@@ -35,4 +35,8 @@ how will you handle the exception in retAPI
 what's use the of functional interfaces 
 inheritance concept to invoke constructor
 fetchbyType in spring jpa 
+N+1 problem
+mock Repository Junit
+
+
 
