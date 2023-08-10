@@ -39,6 +39,4 @@ N+1 problem
 mock Repository Junit
 how to restrict the object cloning
 how to sort multiple elements using java 8 and using functional interface
-
-
-
+How to disable the Autowire
