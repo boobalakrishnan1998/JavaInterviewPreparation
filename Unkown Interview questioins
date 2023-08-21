@@ -27,16 +27,25 @@ map vs flatMap
 what is peek
 relationship association
 cache using hibernate
-Repository annotations
+Repository annotations --
 Rest api to implement employee services
-pom.xml springboot starter parent dependency
+pom.xml springBoot starter parent dependency
 How will you improve the db fetch time
 how will you handle the exception in retAPI
 what's use the of functional interfaces 
 inheritance concept to invoke constructor
-fetchbyType in spring jpa 
+fetch by Type in spring jpa
 N+1 problem
 mock Repository Junit
 how to restrict the object cloning
 how to sort multiple elements using java 8 and using functional interface
-How to disable the Autowire
+How to disable the Autowired
+Future vs completableFuture
+Class level lock and object level lock
+how will to call stored procedure from application
+what is @EnableAutoConfiguration
+how will you validate the request
+shutdown vs shutdownNow
+methods available in concurrent class
+
+
