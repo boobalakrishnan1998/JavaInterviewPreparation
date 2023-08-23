@@ -1,5 +1,5 @@
 Saga design pattern
-diffent 3 types of design pattern
+diffent 3 types of design pattern with use case
 maven build tool goal 
 maven install vs package
 how will you deploy the app jenkin -> sonarQube -> code coverage -> 
@@ -9,6 +9,7 @@ Controller servic class
 Service vs Repository
 Challenges in microservices
 ELK logging
+ExcutorService and internal working of it's
 
 
 
@@ -94,6 +95,28 @@ creatinal design pattern
 	builder
 	
 Structural design pattern
+
+JVM architecture
+Java memory model
+thread lock and live lock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	 
 	 
 	 
