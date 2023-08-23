@@ -1,0 +1,96 @@
+Saga design pattern
+diffent 3 types of design pattern
+maven build tool goal 
+maven install vs package
+how will you deploy the app jenkin -> sonarQube -> code coverage -> 
+build script checck type 
+Hiberante or JPA mapping
+Controller servic class
+Service vs Repository
+
+
+
+
+
+name  Desc
+salary >50k
+dept > HR
+ 
+
+
+     empList.stream()
+	 .filter(e-> (e.getSalary()>50000 && e.getDept().equals("HR"))
+	 .sorted(comparator.comparing(Employee::getName)
+	 .collect(Collectors.toList());
+	 
+	 
+	 select * from Employee e where e.salary > 50000 AND e.department ='HR' order by EmployeeName Desc
+	 
+	 
+	 product cat
+	 applaice
+	 
+	 
+	 @Entity
+	 @Table(name="Employee")
+	 public EmployeeEntity{
+	 
+	    @Id
+		@Column(name="EmployeeId")
+		public int EmployeeId;
+	 
+	 	@Column(name="EmployeeName")
+	    public string EmployeeName;
+		
+		@OneToOne
+		public Department department;
+	 
+	 }
+	 
+	 @Entity
+	 @Table(name="Department")
+	 public DepartmentEntity{
+	 
+	    @Id
+		@Column(name="DepartmentId")
+		public int DepartmentId;
+	 
+	 	@Column(name="DepartmentName")
+	    public string DepartmentName;
+		
+		@OneToMany
+		public List<Employee> employee;
+	 
+	 }
+	 
+	 
+	 
+
+@RestController
+@RequestMapping("/
+public ProductController{
+    @Autowired
+	ProductService productService;
+
+     @GetMapping("/products/{productId}")
+     public List<product> getAllProducts(@PathVariable("productId") String productId, @PathParams("color",requerd=false) Boolean color){
+	 
+	 productService.getProductsBy();
+	 
+	 
+	 }
+     
+
+
+}
+
+creatinal design pattern 
+    abstract 
+	factory abstract       
+	singleton
+	builder
+	
+Structural design pattern
+	 
+	 
+	 
