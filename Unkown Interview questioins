@@ -47,7 +47,5 @@ what is @EnableAutoConfiguration
 how will you validate the request
 shutdown vs shutdownNow
 methods available in concurrent class
-
-
 How to disable the Autowire
 how to call stroed procudure from spring boot application
