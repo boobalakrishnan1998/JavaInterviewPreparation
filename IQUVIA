@@ -1,3 +1,20 @@
+Maven Lifecycle: Below is a representation of the default Maven lifecycle and its 8 steps: Validate, Compile, Test, Package, Integration test, Verify, Install, and Deploy.
+
+
+8 Phases of the Default Maven Lifecycle
+
+The default Maven lifecycle consists of 8 major steps or phases for compiling, testing, building and installing a given Java project as specified below:
+
+Validate: This step validates if the project structure is correct. For example – It checks if all the dependencies have been downloaded and are available in the local repository.
+Compile: It compiles the source code, converts the .java files to .class, and stores the classes in the target/classes folder.
+Test: It runs unit tests for the project.
+Package: This step packages the compiled code in a distributable format like JAR or WAR.
+Integration test: It runs the integration tests for the project.
+Verify: This step runs checks to verify that the project is valid and meets the quality standards.
+Install: This step installs the packaged code to the local Maven repository.
+Deploy: It copies the packaged code to the remote repository for sharing it with other developers.
+
+
 
 1) Difference between String, StringBuffer and StringBuilder in Java? (detailed answer)
 String is immutable while both StringBuffer and StringBuilder is mutable, which means any change e.g. converting String to upper case or trimming white space will produce another instance rather than changing the same instance. On later two, StringBuffer is synchronized while StringBuilder is not, in fact its a ditto replacement of StringBuffer added in Java 1.5.
