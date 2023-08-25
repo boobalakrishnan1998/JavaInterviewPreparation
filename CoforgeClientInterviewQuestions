@@ -1,0 +1,136 @@
+Write a Java program to filter list of persons with specific last name using Streams and Lambadas.
+
+load balancer purpose . huge amount of request from ui/user and then how to handle it?
+
+If we have monolathic application and then how many microservices we can write.
+
+ 
+
+If Budget is less then what will be your approch related for Microservices. 
+
+
+[12:02 PM] Vimal Tyagi
+
+int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
+
+[12:32 PM] Vimal Tyagi
+
+1.Main Features of Java 8.
+
+2.How many design patterns do you know. Explain them
+
+3.Tell me about Composite design pattern.
+
+4.Docker and Kubernetes hands on experience ? (Explain there working)
+
+5.Which cloud technology worked on ?
+
+6.Write a Java program to filter list of persons with specific last name using Streams and Lambadas.
+
+7.You are given a file named nums.txt that contains a list of integers, one per line. Write a Java function that reads the integers from the file, an integer target from the user, and returns an array of two distinct indices such that the corresponding elements add up to the target. You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+Example:
+
+Contents of "nums.txt":
+
+2
+
+7
+
+11
+
+15
+
+User Input: target = 9 Output: [0, 1] (nums[0] + nums[1] = 2 + 7 = 9)
+
+ 
+
+8.Read the string from the file and check if the string is palindrome also write JUnit for palindrome and write full working Junit.
+
+A man, a plan, a canal – Panama
+AmanaplanacanalPanama
+
+
+
+"Was it a car or a cat I saw?'
+
+AAABBB
+
+ABCCBA
+
+aaBBAA
+
+aaBBAA 
+
+ABDBDAA 
+
+AABbBBCC
+
+
+Output:  AAABBB - a palindrom, A man, a plan, a canal – Panama,
+
+"Was it a car or a cat I saw?”
+
+9.Load balancer purpose . huge amount of request from Ui/user and then how to handle it?
+
+10.If we have monolithic application and then how many microservices we can write.
+
+11.If Budget is less, than what will be your approach related for Microservices.
+
+12.You're given a 3*3 matrix
+
+Find out its diagonal sum
+
+Find out minimum and maximum number from its diagonal
+
+Rotate the matrix by 90 degrees
+
+13.Read an integer from a file and find out all the prime till that number.
+
+14.Write a Java function that reads a text file, where each line of the file contains a string. For each line, reverse the words in the string while maintaining the order of the words. You can assume that each line does not contain leading or trailing spaces and that there is exactly one space between each pair of words. After reversing the words in each line, print the modified lines.
+
+ 
+
+ 
+
+input:
+
+Hello World
+
+Sabre the best
+
+Java programming is fun
+
+output:
+
+olleH dlroW
+
+erbaS eht tseb
+
+avaJ gnimmargorp si nuf
+
+
+
+public class SampleTest {
+
+    public static void main(String[] args) {
+                          // 0   1  2
+        int[][] matrix = {{1, 2, 2},
+                          {4, 5, 6},
+                          {7, 8, 9}};
+
+        /*0,2
+                 1,1
+                         2,0*/
+        int sum=0;
+        int sum1=0;
+        int len=matrix.length;
+        for (int i = 0; i < len; i++) {
+                    sum=sum+matrix[i][i];
+                    sum1=sum1+matrix[i][len-i-1];
+        }
+        System.out.println("First "+sum);
+        System.out.println("second "+sum1);
+
+    }
+}
