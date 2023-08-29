@@ -8,12 +8,7 @@ If we have monolathic application and then how many microservices we can write.
 
 If Budget is less then what will be your approch related for Microservices. 
 
-
-[12:02 PM] Vimal Tyagi
-
 int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
-
-[12:32 PM] Vimal Tyagi
 
 1.Main Features of Java 8.
 
@@ -129,8 +124,5 @@ public class SampleTest {
                     sum=sum+matrix[i][i];
                     sum1=sum1+matrix[i][len-i-1];
         }
-        System.out.println("First "+sum);
-        System.out.println("second "+sum1);
-
     }
 }

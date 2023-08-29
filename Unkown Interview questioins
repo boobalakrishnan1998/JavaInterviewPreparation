@@ -47,5 +47,13 @@ what is @EnableAutoConfiguration
 how will you validate the request
 shutdown vs shutdownNow
 methods available in concurrent class
-How to disable the Autowire
-how to call stroed procudure from spring boot application
+How to disable the Autowired
+how to call stored procedure from spring boot application
+what is data hiding
+class loader
+heap types
+merge vs update
+what bean type you use for multithreaded env
+idempotent vs nonIdempotent
+Saga design pattern
+
