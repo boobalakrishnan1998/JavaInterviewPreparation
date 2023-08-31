@@ -2,11 +2,11 @@ Write a Java program to filter list of persons with specific last name using Str
 
 load balancer purpose . huge amount of request from ui/user and then how to handle it?
 
-If we have monolathic application and then how many microservices we can write.
+If we have monolithic application and then how many microservices we can write.
 
  
 
-If Budget is less then what will be your approch related for Microservices. 
+If Budget is less then what will be your approach related for Microservices.
 
 int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
 
@@ -126,3 +126,35 @@ public class SampleTest {
         }
     }
 }
+
+There are several ways to handle a large number of user requests per second in Java at the application logic level. Some of the most common methods include:
+
+Caching: Caching is a technique where frequently accessed data is stored in memory so that it can be quickly retrieved without having to go through the entire process of fetching the data from a database or other storage system.
+
+Asynchronous Processing: Asynchronous processing allows your application to handle requests concurrently, rather than sequentially. This can be achieved using threads, or using a message queue.
+
+Load Balancing: Load balancing is a technique that distributes incoming requests across multiple servers to ensure that no single server is overwhelmed with too many requests.
+
+Scaling horizontally: Scaling horizontally means adding more servers to your application to handle more requests.
+
+Horizontal partitioning: Horizontal partitioning is a technique where your data is split across multiple servers to allow for more efficient data retrieval.
+
+Circuit Breaker: A circuit breaker is a design pattern that can prevent a cascading failure in a distributed system by breaking the circuit when a service becomes unresponsive.
+
+Multi-threading: Multi-threading allows you to split a single process into multiple threads, allowing for more efficient processing.
+
+Optimizing database queries: Optimizing database queries can help to reduce the number of requests required to retrieve data from a database.
+
+
+-------------
+
+If Budget is less then what will be your approach related for Microservices.
+
+Prioritize Functionality: Instead of trying to build a comprehensive suite of microservices from the start, focus on delivering core functionalities first. This approach helps you create a functional foundation upon which you can iteratively add more services over time as your budget allows.
+
+Use Open Source Technologies: Leverage open-source tools, frameworks, and libraries to reduce development costs. There are many established open-source solutions available for building and managing microservices, including service discovery (like Consul), API gateways (like Kong), and monitoring (like Prometheus).
+ Examples include Kubernetes for orchestration, Docker for containerization, and Spring Boot for building Java-based microservices.
+
+Cloud Services: Consider utilizing cloud services like AWS, Azure, or Google Cloud. These platforms offer pay-as-you-go models, which can help you manage costs effectively. They also provide tools and services that can streamline the development, deployment, and scaling of microservices.
+Containerization and Orchestration: Embrace containerization (e.g., Docker) and orchestration (e.g., Kubernetes). These technologies simplify deployment and management of microservices by providing consistency across different environments and enabling efficient resource utilization.
+Automated Testing and Deployment: Implement automated testing and deployment pipelines to reduce manual effort and ensure consistent quality. This can help catch issues early and streamline the release process.Automated Testing and Deployment: Implement automated testing and deployment pipelines to reduce manual effort and ensure consistent quality. This can help catch issues early and streamline the release process.
